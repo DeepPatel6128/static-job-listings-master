@@ -1,5 +1,5 @@
 # Frontend Mentor - Job listings with filtering
-
+--- Live Site URL - https://deeppatel6128.github.io/static-job-listings-master/
 ![Design preview for the Job listings with filtering coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
