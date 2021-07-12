@@ -1,0 +1,164 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+    font-family: 'Spartan', 'serif';
+}
+body{
+    margin: 0;
+    box-sizing: inherit;
+    overflow-x: hidden;
+}
+.background{
+    width: 100vw;
+    height: 25vh;
+    background: url(./images/bg-header-desktop.svg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-color: hsl(180, 29%, 50%);
+}
+.container{
+    width: 85%;
+    margin: auto;
+    position: relative;
+    font-weight: 700;
+}
+.filter-field{
+    width: 100%;
+    min-height: 60px;
+    background: white;
+    display: flex;
+    padding: 18px 23px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    transform: translateY(-50%);
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 5px rgba(91, 164, 164, 0.26);
+    color: hsl(180, 29%, 50%);
+    margin-bottom: 25px;
+}
+.filter-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.filters{
+    display: flex;
+    align-items: center;
+    background:  hsl(180, 31%, 95%);
+    border-radius: 8px;
+}
+.filter-name{
+    padding: 0 0.6rem;
+}
+.remove-btn{
+    background: hsl(180, 29%, 50%);
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem 0.6rem;
+    display: flex;
+    align-items: center;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+}
+.remove-btn:hover{
+    background: black;
+}
+.remove-btn img{
+    pointer-events: none;
+}
+.clear-btn{
+    cursor: pointer;
+}
+.clear-btn:hover{
+    border-bottom: 1px solid hsl(180, 29%, 50%);
+}
+
+
+.job-listings{
+    padding-top: 60px;
+}
+.vacancy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background: white;
+    box-shadow:  0px 0px 10px 5px rgba(91, 164, 164, 0.26);
+    padding: 1.2rem 1.6rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+.top::after{
+    content: '';
+    width: 5px;
+    height: 100%;
+    background: hsl(180, 29%, 50%);
+    position: absolute;
+    left: 0;
+    border-radius: 8px 0 0 8px;
+}
+.main-content{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.main-content-text{
+    line-height:1.8;
+}
+.company-name .company{
+    color: hsl(180, 29%, 50%);
+}
+.company-name .new{
+    padding: 0.3rem 0.6rem;
+    margin:0rem 0.5rem 0rem 0.7rem;
+    background: hsl(180, 29%, 50%);
+    border-radius: 0.9rem;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: white;
+}
+.featured{
+    padding: 0.3rem 0.6rem;
+    background: #171717;
+    border-radius: 0.9rem;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: white;
+}
+.categories{
+    display: flex;
+    gap: 10px;
+}
+.filter{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: hsl(180, 31%, 95%);
+    color: hsl(180, 29%, 50%);
+    border-radius: 5px;
+    padding: 0.4rem 0.6rem;
+    cursor: pointer;
+}
+.filter:hover{
+    color: white;
+    background: hsl(180, 29%, 50%);
+}
+.position{
+    font-size: 1.3rem;
+    padding: 0.2rem 0;
+    cursor: pointer;
+}
+.position:hover{
+    color: hsl(180, 29%, 50%);
+}
+.about{
+    font-weight:500;
+    color:  hsl(180, 8%, 52%);
+}
+.about span{
+    margin-right: 0.8rem;
+}
+.hide{
+    display: none;
+}
